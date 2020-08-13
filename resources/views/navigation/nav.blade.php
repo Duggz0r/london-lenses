@@ -2,7 +2,7 @@
     <div class="container p-3">
         <nav class="navbar navbar-expand-lg">
             <ul class="navbar-nav mr-auto">
-                <li><img src="images/logo.svg" class=""></li>
+                <li><img src="images/Logo.svg" class=""></li>
             </ul>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
                 <span><img src="images/menu.svg"></span>
