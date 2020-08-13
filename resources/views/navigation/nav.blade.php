@@ -9,11 +9,11 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
-                    <li class="links links-main"><a href="#">Contact Lenses</a></li>
-                    <li class="links links-main"><a href="#">Solutions & Lens Care</a></li>
-                    <li class="links links-main"><a href="#">Eye Health</a></li>
-                    <li class="links links-main"><a href="#">About Us</a></li>
-                    <li class="links links-main"><a href="#">Take The Contact Lens Quiz</a></li>
+                
+                    @foreach($navigationLinks as $navigationLink)
+                        <li class="links links-main"><a href="/{{ $navigationLink['route'] }}">{{ $navigationLink['name'] }}</a></li>
+                    @endforeach
+            
                     <li>
                     
                     </li>

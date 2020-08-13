@@ -7,6 +7,6 @@
     </ul>
     <ul class="navbar-nav">
         <li class="links"><a href="#">Login/Register <img src="images/account.svg" class="filter-invert"></a></li>
-        <li class="links"><a href="#"><img src="images/cart.svg" class="filter-invert"> 1</a></li>
+        <li class="links"><a href="#"><img src="images/cart.svg" class="filter-invert"> {{ $basketCount }}</a></li>
     </ul>
 </nav>
