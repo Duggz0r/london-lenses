@@ -7,6 +7,11 @@ html, body {
     margin: 0;
 }
 
+.links {
+    list-style-type: none;
+    padding-left: 0;
+}
+
 .links > a {
     color: #000000;
     padding: 0 15px;
@@ -105,9 +110,60 @@ a:hover {
     height: 600px;
 }
 
-.hero .container-eyecare {
+.eyecare .container-eyecare {
     display: table-cell;
     vertical-align: middle;
-    height: 689px;
-    padding-left: 50%;
+    height: 600px;
+    width: 100%;
+    padding: 50px;
+}
+
+
+
+.button {
+    margin: 10px 10px 10px 0;
+    padding: 10px;
+    background-color: #ffffff;
+    color: grey;
+    font-size: 14px;
+    border-radius: 20px;
+    border: 1px solid grey;
+}
+
+.button-orange {
+    background-color: #EFC25D;
+    color: #000000;
+    border: 1px solid #EFC25D;
+}
+
+.button:hover {
+    border: 1px solid #EFC25D !important;
+}
+
+.button-orange:hover {
+    color: #000000 !important;
+    background-color: #e0ae43 !important;
+}
+
+.button-wide {
+    width: 100% !important;
+    text-align: center !important;
+}
+
+.button-transparent {
+    background-color: unset !important;
+    color: #ffffff !important;
+    border: 1px solid #ffffff !important;
+    display: block;
+    margin: 0 20px;
+}
+
+.footer {
+    background-color: #F6F6F8;
+    margin-top: 50px;
+    padding: 50px;
+}
+
+.links-footer > a {
+    padding: 0 0 15px 0 !important;
 }
